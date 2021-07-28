@@ -1,0 +1,28 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header section */
+.top-part{
+    background-color: #264653;
+}
+
+.left-side{
+    margin: auto;
+}
+.first-paragraph{
+    font-weight: 300;
+font-size: 14px;
+line-height: 22px;
+}
+.header-article{
+    font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+}
+.header-button{
+    background-color: #E76F51;
+    border-radius: 5px;
+}

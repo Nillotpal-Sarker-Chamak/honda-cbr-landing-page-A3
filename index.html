@@ -11,6 +11,8 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- custom css -->
     <link rel="stylesheet" href="css/main.css">
+    <!-- font awesome kit code -->
+    <script src="https://kit.fontawesome.com/31ac6bc449.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,25 +23,298 @@
                     <p class="text-white-50 first-paragraph"> Computer-controlled digital transistorized with
                         electronic
                         advance</p>
-                    <h3 class="text-white">Honda CBR 300R</h3>
+                    <h3 class="text-white honda-heading">Honda CBR 300R</h3>
                     <article class="text-white-50 header-article w-75 mt-2">
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                         consequat
                         duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                     </article>
-                    <button class="btn header-button mt-3">Purchase</button>
+                    <!-- button modal start -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn header-button mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ride with us with <span
+                                            class="text-danger fst-italic fw-bolder">2 Years of Warranty</span>
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Price: <span class="fw-bolder">$4699</span>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Continue</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- button modal finish -->
                 </div>
                 <div>
                     <img class="w-100" src="images/header-bike.png" alt="">
                 </div>
 
             </div>
-
-
         </section>
 
     </header>
     <main>
+        <!-- featured bike section -->
+        <section class="container-fluid bg-white p-3">
+            <h3 class="heading text-dark mb-0 text-center mt-3">Fetured Bikes 2021</h3>
+            <p class="collection-paragraph m-0 text-center">Best bike collection</p>
+            <div class="collection-container d-flex justify-content-around align-items-center m-5 ">
+
+                <img class="w-25 gray" src="images/feature-bike.jpg" alt="">
+
+                <img class="w-25" src="images/feature-bike.jpg" alt="">
+
+                <img class="w-25 gray" src="images/feature-bike.jpg" alt="">
+
+            </div>
+
+        </section>
+        <!-- Happy Clients Section -->
+        <section class="container-fluid">
+            <h3 class="happy-clients-heading text-dark text-center">Happy <span class="heading-different">Clients
+                    says</span>
+            </h3>
+            <!-- client card start -->
+            <div class="row row-cols-1 row-cols-md-3 mt-5 d-flex justify-content-center ms-5 mb-5">
+                <div class=" col w-25 ">
+                    <div class=" card w-75 ">
+                        <img src=" images/user-1.png" class="mt-4 w-50 mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="stars d-flex justify-content-center">
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="far fa-star m-1 single-star"></i>
+                            </div>
+                            <p class="names text-center mt-2">Regina Miles</p>
+                            <p class="job text-center">Banker</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col w-25">
+                    <div class="card w-75">
+                        <img src="images/user-2.png" class="mt-4 w-50 mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="stars d-flex justify-content-center">
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="far fa-star m-1 single-star"></i>
+                            </div>
+                            <p class="names text-center mt-2">Regina Miles</p>
+                            <p class="job text-center">Banker</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col w-25 ">
+                    <div class="card w-75 ">
+                        <img src="images/user-32.png" class="mt-4 w-50 mx-auto" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="stars d-flex justify-content-center">
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="fas fa-star m-1 single-star"></i>
+                                <i class="far fa-star m-1 single-star"></i>
+                            </div>
+                            <p class="names text-center mt-2">Regina Miles</p>
+                            <p class="job text-center">Banker</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- client card finish -->
+        </section>
+
+        <!-- Frequently Asked Questions Section -->
+        <section class="container-fluid">
+            <h3 class="question-heading text-center">Frequently Asked <span class="question-different">Questions</span>
+            </h3>
+            <div class="parent-questions d-flex justify-content-center   align-items-center w-75 mx-auto">
+                <div class="w-75 m-5">
+                    <img class="w-100" src="images/faq.png" alt="">
+                </div>
+                <div>
+                    <!-- accordion start -->
+                    <div class="accordion m-5 w-75" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <strong>Safety First!</strong> Always obey the rules of the road. Obey all traffic
+                                    signals, signs, and laws. Get in the mindset of “driving” your bike—not just
+                                    “riding” your bike. This will help you be a more focused and legally compliant bike
+                                    rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    How can I tell if my helmet is old and I need a
+                                    new one?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- accordion finish -->
+                </div>
+            </div>
+        </section>
+        <!-- my own 1 -->
+        <section class="container-lg bg-white p-3 mx-auto">
+            <h3 class="heading text-dark mb-0 text-center mt-3">Other Available Bikes 2021</h3>
+            <div class="collection-container d-flex justify-content-around align-items-center m-5 ">
+
+                <div class="border border-secondary rounded-3 ms-5 w-75 me-2">
+                    <img class="w-100" src="images/bike-1.png" alt="">
+                    <h3 class="text-center">R15 Version 3</h3>
+                    <h4 class="text-center">Price:$4000</h4>
+                    <button type="button" class="btn header-button mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        See Further
+                    </button>
+
+                </div>
+
+                <div class="border border-secondary rounded-3 w-75 me-2">
+                    <img class="w-100" src="images/bike-2.png" alt="">
+                    <h3 class="text-center">Honda GSX R</h3>
+                    <h4 class="text-center">Price:$2500</h4>
+                    <button type="button" class="btn header-button mt-3" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        See Further
+                    </button>
+                </div>
+
+                <div class="border border-primary rounded-3 w-75">
+                    <img class="w-100" src="images/bike-3.png" alt="">
+                    <h3 class="text-center">R15 Version 3</h3>
+                    <h4 class="text-center">Price:$4000</h4>
+                    <button type="button" class="btn header-button mt-3">
+                        See Further
+                    </button>
+                </div>
+
+            </div>
+
+        </section>
+        <h3 class="heading text-dark mb-0 text-center mt-3">Our Customer Services</h3>
+        <section class="container-lg d-flex mx-auto align-items-center justify-content-center">
+
+            <div class="w-25">
+                <img class="w-100" src="images/service 2.jpg" alt="">
+                <button type="button" class="btn header-button ms-5">
+                    See Our Types of Services
+                </button>
+
+
+            </div>
+            <div class="w-25"><img class="w-75"
+                    src="images/wrench-and-screwdriver-mechanic-tools-icon-vector-14356089.jpg" alt="">
+                <button type="button" class="btn header-button mt-5 ">
+                    See Locations of Our Service Centres
+                </button>
+            </div>
+
+        </section>
+
+
+
 
     </main>
 

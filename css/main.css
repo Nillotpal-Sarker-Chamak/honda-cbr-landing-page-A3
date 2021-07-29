@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 /* header section */
 .top-part{
@@ -17,6 +18,11 @@ body{
 font-size: 14px;
 line-height: 22px;
 }
+.honda-heading{
+    font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+}
 .header-article{
     font-weight: 300;
 font-size: 16px;
@@ -26,3 +32,62 @@ line-height: 24px;
     background-color: #E76F51;
     border-radius: 5px;
 }
+/* featured bike section */
+.heading{
+    font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+}
+.collection-paragraph{
+    font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #E76F51;
+}
+.gray{
+    filter: grayscale(100%);
+}
+/* Happy Clients Section */
+.happy-clients-heading{
+    font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+}
+.heading-different{
+    color: #E76F51;
+}
+.card-text{
+    font-size: 16px;
+line-height: 26px;
+color: #6C6C6C;
+}
+.single-star{
+    color: #E77C40;
+}
+.names{
+    font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: #23A6F0;
+}
+.job{
+    font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: #252B42;
+}
+.client-card{
+    border: 1px solid #DEDEDE;
+box-sizing: border-box;
+border-radius: 5px;
+}
+ /* Frequently Asked Questions Section */
+ .question-heading{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #0D0925;
+ }
+ .question-different{
+     color: #E76F51;
+ }
